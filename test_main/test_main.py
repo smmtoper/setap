@@ -1,4 +1,4 @@
-from main import is_even
+from main.main import is_even
 
 def test_is_even_with_even_number():
     assert is_even(4) == True
